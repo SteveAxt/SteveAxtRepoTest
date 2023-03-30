@@ -4,6 +4,7 @@
 #pragma hdrstop
 
 #include "Mainform.h"
+#include "SecondForm.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -13,10 +14,12 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 	: TForm(Owner)
 {
 }
-//---------------------------------------------------------------------------
+//-------------------------------------------------------------------------
+
+
 void __fastcall TForm1::Button1Click(TObject *Sender)
 {
-  ShowMessage("Hello World");
+  Form2->Show();
 }
 //---------------------------------------------------------------------------
 
