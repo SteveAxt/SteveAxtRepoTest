@@ -14,3 +14,10 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 {
 }
 //---------------------------------------------------------------------------
+
+void __fastcall TForm1::Label1Click(TObject *Sender)
+{
+  Label1->Caption = "This is a label";
+}
+//---------------------------------------------------------------------------
+
